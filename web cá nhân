@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <style type="text/css">
+        body{
+            background: #282923;
+        }
+        section{
+            height:700px;
+            background-image: url('https://img.thuthuat123.com/uploads/2019/10/17/background-dong-dep-nhat_111050371.gif');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+        }
+        *{
+            text-decoration: none;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: Arial;
+        }
+        .nav {
+            background-color: black;
+            display: flex;
+            height: 4em;
+            padding-right: 2.5em;
+            line-height: 4em;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 2em;
+            padding-left: 2em;
+        }
+        .Menu {
+            dispLay: flex;
+            font-size: 17px;
+            padding-right: 2.5em;
+        }
+        .Menu a:hover {
+            color: #e32879;
+            transition: color .2s ease-out;
+        }
+        .menu_link {
+            padding-right: 2.5em;
+            font-size: 17px;
+        }
+        .menu_link a:hover {
+            color: #e32879;
+        }
+        .menu_down {
+            background: black;
+            width: 180px;
+            height:10em;
+            line-height: 3em;
+            margin: 0px auto;   
+            position: absolute;
+            top: 60px;
+            right: 70px;
+            display: none;
+        }
+        .menu_down li {
+            text-align: center;
+            padding: 0px;
+        }
+        .menu_down li a:hover {
+            color: #e32879;
+        }
+        .Menu .menu_link:hover .menu_down {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="nav">
+        <img style="" src="https://img.thuthuat123.com/uploads/2019/10/17/background-phong-canh-dong_111050574.gif">
+        <ul class="Menu">
+            <li><a href="">Trang Chủ</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="">Giới Thiệu</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="menu_link">
+                <a href="">Liên Hệ</a>
+                <ul class="menu_down">
+                <li><a href="https://www.facebook.com/taitrn51/">Facebook</a></li>
+				<li><a href="https://www.instagram.com/at.trann/">Instagram</a></li>
+				<li><a href="https://github.com/AnhTaitrn">Github</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</header>
+<section>
+
+</section>
+</body>
+</html>
