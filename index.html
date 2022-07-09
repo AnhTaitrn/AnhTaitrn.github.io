@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html>
     <head>
         <meta charset="utf-8">
@@ -19,7 +18,11 @@
         <!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+           <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+           <!--[if lt IE 9]>
              <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
              <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
            <![endif]-->
@@ -37,9 +40,11 @@
                                 <input type="checkbox" id="nav-button">
                                 <label for="nav-button" onclick></label>
                                 <ul class="nav-container">
-                                    <li><a href="#home" class="current">Trang Chủ</a></li>                                                                                                          
-                                    <li><a href="#team">Đội Của Tôi</a></li>
-                                    <li><a href="#contact">Liên Hệ</a></li>
+                                    <li><a href="#home" class="current">Trang Chủ</a></li>                               
+                                    <li><a href="#work">Công Việc</a></li>
+                                    <li><a href="#blog">Blog</a></li>                                    
+                                    <li><a href="#team">Đội Của Tôi </a></li>
+                                    <li><a href="#contact">Tiếp Xúc</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -55,7 +60,7 @@
                          <div class="content content-header" >
                             <h2>Chúng Tôi Là Những Nhà Thiết Kế Trẻ</h2>
                             <p></p>
-                            <a target="_blank" class="btn btn-ghost" href="#">Xem Thêm</a>
+                            <a target="_blank" class="btn btn-ghost" href="#">Tìm Kiếm</a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +79,129 @@
                 <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
             </svg>
 
-            
+            <!-- Work Section -->
+            <div class="wrap grey recent-wrap" id="work">
+                <section class="grid grid-pad">
+                    <h2>Công Việc Gần Đây</h2>
+                    <!-- Start of Filter section -->
+                    <div class="col-1-1 mix">
+                        <ul class="filters" >
+                            <li class="filter active" data-filter="all">Tất CẢ</li>
+                            <li class="filter" data-filter=".illustration">Hình Minh Họa</li>
+                            <li class="filter" data-filter=".web-design">Thiết Kế Web</li>
+                            <li class="filter" data-filter=".photography">Ảnh</li>
+                        </ul>
+                    </div>
+                    <!-- End of Filter section -->
+                    <div class="portfolio-items" >
+                        <div class="col-1-3 mix illustration">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/1-small.jpg" alt="">                                    
+                                    <div class="overlay">
+                                        <span>Hình Minh Họa</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Asian tourist - Illustration" href="images/work/1-big.jpg">Asian tourist</a></h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3 mix photography">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/5-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Ảnh</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Blue flowers - Photography" href="images/work/5-big.jpg">Blue flowers</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3 mix illustration">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/2-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Hình Minh Họa</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Batman Wannabe - Illustration" href="images/work/2-big.jpg">Batman Wannabe</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3 mix photography">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/8-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Ảnh </span>                                        
+                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Big city and dreams - Photography" href="images/work/8-big.jpg">Big city and dreams</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3 mix web-design">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/6-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Thiết Kế Web</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:webdesign" title="Minimal nature - Web Design" href="images/work/6-big.jpg">Minimal nature</a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-1-3 mix web-design">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/3-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Hình Minh Họa</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Jack the sailor - Illustration" href="images/work/3-big.jpg">Jack the sailor</a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-1-3 mix photography">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/7-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Ảnh</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:photography" title="Enjoy live - Photography" href="images/work/7-big.jpg">Enjoy live</a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-1-3 mix illustration">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/4-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Hình Minh Họa</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:illustration" title="Run kitty run - Photography" href="images/work/4-big.jpg">Run kitty run</a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-1-3 mix illustration">
+                            <div class="content">
+                                <div class="recent-work">
+                                    <img src="images/work/9-small.jpg" alt="">
+                                    <div class="overlay">
+                                        <span>Thiết Kế Web</span>
+                                        <h2><a class="img-wrap" data-rel="lightcase:webdesign" title="Would you? - Web Design" href="images/work/9-big.jpg">Would you?</a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="col-1-1"><a class="btn" href="#0">Xem Thêm</a></div>
+
+                </section>  
+            </div>
+            <!-- End Work Section -->
+
             <!-- CurveUp -->
             <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
@@ -87,14 +214,87 @@
                 <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
             </svg>
 
-            
+            <!-- Blog Section -->
+            <div class="wrap blog-grid grey" id="blog">
+                <div class="grid grid-pad">
+                    <div class="content" >
+                        <h2>Blog Của Chúng Tôi</h2>
+                        <div class="col-1-2" >
+                            <article class="post-wrap">
+                                <div class="post-img">
+                                    <a href="#0"><img src="images/post/post-n1.jpg" alt=""></a>
+                                </div>
+                                <div class="post">
+                                    <h2 class="entry-title"><a href="#0">Giờ Vẽ</a></h2>
+                                    <div class="post-meta">
+                                        <a href="#0">15 Januar, 2015</a> <span class="mid-sep">·</span> <a href="#0">Graphic Design</a>
+                                    </div>
+                                    <p><a href="#0"></a> 
+                                    </p>
+                                    <a class="btn read-more" href="#0">Đọc Thêm </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-1-2" >
+                            <article class="post-wrap">
+                                <div class="post-img">
+                                    <a href="#0"><img src="images/post/post-n2.jpg" alt=""></a>
+                                </div>
+                                <div class="post">
+                                    <h2 class="entry-title"><a href="#0">Hội Thảo Nhiếp Ảnh</a></h2>
+                                    <div class="post-meta">
+                                        <a href="#0">2 Februar, 2014</a> <span class="mid-sep">·</span> <a href="#0">Photography</a>
+                                    </div>
+                                    <p> <a href="#0"></a> 
+                                    </p>
+                                    <a class="btn read-more" href="#0">Đọc Thêm</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-1-2" >
+                            <article class="post-wrap">
+                                <div class="post-img">
+                                    <a href="#0"><img src="images/post/post-n3.jpg" alt=""></a>
+                                </div>
+                                <div class="post">
+                                    <h2 class="entry-title"><a href="#0">Kì Nghỉ</a></h2>
+                                    <div class="post-meta">
+                                        <a href="#0">26 March, 2014</a> <span class="mid-sep">·</span> <a href="#0">Graphic Design</a>
+                                    </div>
+                                    <p> <a href="#0"></a> 
+                                    </p>
+                                    <a class="btn read-more" href="#0">Đọc Thêm</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-1-2" >
+                            <article class="post-wrap">
+                                <div class="post-img">
+                                    <a href="#0"><img src="images/post/post-n4.jpg" alt=""></a>
+                                </div>
+                                <div class="post">
+                                    <h2 class="entry-title"><a href="#0">Khoảnh Khắc</a></h2>
+                                    <div class="post-meta">
+                                        <a href="#0">19 June, 2014</a> <span class="mid-sep">·</span> <a href="#0">Graphic Design</a>
+                                    </div>
+                                    <p> <a href="#0"></a>
+                                    </p>
+                                    <a class="btn read-more" href="#0">Đọc Thêm</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-1-1"><a class="btn" href="#0">Xem Tất Cả</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Blog Section -->
+
             <!-- CurveUp -->
             <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
             </svg>
             
            
-
                 <!-- CurveDown -->
                 <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
                     <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
@@ -115,7 +315,7 @@
                                             <span class="counter">55</span>
                                             <span class="info-counter-units">Cốc</span>
                                             </h5>
-                                        <div class="info-counter-text">Cà Phê Uống Trung Bình/ Tuần</div>
+                                        <div class="info-counter-text">Cà Phê Uống / Tuần</div>
                                         </div>
                                     </div>
                                 </div>
@@ -128,10 +328,10 @@
                                         </div>
                                         <div class="info-counter-content">
                                             <h5 class="info-counter-number">
-                                            <span class="counter">5000</span>
+                                            <span class="counter">9000</span>
                                             <span class="info-counter-units">Dòng</span>
                                             </h5>
-                                        <div class="info-counter-text">Dòng Mã Trung Bình/ Tuần</div>
+                                        <div class="info-counter-text">Dòng / Tuần</div>
                                         </div>
                                     </div>
                                 </div>
@@ -146,9 +346,9 @@
                                         <div class="info-counter-content">
                                             <h5 class="info-counter-number">
                                             <span class="counter">400</span>
-                                            <span class="info-counter-units">Cúp</span>
+                                            <span class="info-counter-units">Khách Hàng</span>
                                             </h5>
-                                        <div class="info-counter-text">Khách Hàng Hài Lòng/ Tuần</div>
+                                        <div class="info-counter-text">Khách Hàng Hài Lòng / Tuần</div>
                                         </div>
                                     </div>
                                 </div>
@@ -167,14 +367,14 @@
                 <div class="wrap team-wrap grey" id="team">
                     <div class="grid grid-pad">
                         <div class="content" >
-                            <h2>Thành Viên</h2>
+                            <h2>Đội Của Tôi</h2>
                             <div class="col-1-4" >
                                 <div class="content staff-content">
                                     <div class="recent-work staff-img">
                                         <div class="img-wrap staff-img">
-                                            <img src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/275668516_3397379593845763_7556118299901213602_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=nk69vs4nnysAX-k1iXY&_nc_ht=scontent.fsgn2-5.fna&oh=00_AT9V0PcFKo9OvlbxijTnjkhKnvIAtbRDadtqdEMkOKtj6A&oe=62CD34BC" alt="Trần Anh Tài">
+                                            <img src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/275668516_3397379593845763_7556118299901213602_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=nk69vs4nnysAX-k1iXY&_nc_ht=scontent.fsgn2-5.fna&oh=00_AT9V0PcFKo9OvlbxijTnjkhKnvIAtbRDadtqdEMkOKtj6A&oe=62CD34BC" alt="">
                                             <div class="team-social">
-                                                <a class="sl-fb" href="https://www.facebook.com/taitrn51/"><i class="icon-facebook"></i></a>
+                                                <a class="sl-fb" href="#"><i class="icon-facebook"></i></a>
                                                 <a class="sl-tw" href="#"><i class="icon-twitter"></i></a>
                                                 <a class="sl-gp" href="#"><i class="icon-googleplus2"></i></a>
                                                 <a class="sl-ln" href="#"><i class="icon-linkedin"></i></a>
@@ -191,7 +391,7 @@
                                 <div class="content staff-content">
                                     <div class="recent-work staff-img">
                                         <div class="img-wrap staff-img">
-                                            <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/282568645_109101638473572_7338810796397121429_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PUKggin31isAX9eTcEr&_nc_ht=scontent.fsgn2-3.fna&oh=00_AT95eaUfoTzBm1Av0m2qdXlqMOCAEjNKDmmc4mNdt2K_Hw&oe=62B96DFE" alt="Nguyễn Quốc Chung">
+                                            <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/282568645_109101638473572_7338810796397121429_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=YVuvGmmlUuoAX-NvjiX&_nc_ht=scontent.fsgn2-3.fna&oh=00_AT-BXXNBuFBv1UPTiWiiO95mVWh3xfD_KnsSIWphgGgBjQ&oe=62CD347E" alt="">
                                             <div class="team-social">
                                                 <a class="sl-fb" href="#"><i class="icon-facebook"></i></a>
                                                 <a class="sl-tw" href="#"><i class="icon-twitter"></i></a>
@@ -201,7 +401,7 @@
                                         </div>
                                         <div class="work-info staff-info">
                                             <h5>Nguyễn Quốc Chung</h5>
-                                            <span>Người Thiết Kế</span>
+                                            <span>Nhà Thiết Kế</span>
                                         </div>
                                     </div>
                                 </div>
@@ -211,7 +411,7 @@
                                 <div class="content staff-content">
                                     <div class="recent-work staff-img">
                                         <div class="img-wrap staff-img">
-                                            <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/261281298_428208698877022_41218216288687255_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=7IAKcevlgvsAX_08xQf&_nc_oc=AQk-Svac5ECLsz-GDzC4nWzbrRoyofj1Djd-KgS8-cuK62hAhVB-iihiWBR6CbrHKHI&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT9WKuyOXVW4iVBD_EOpAtIVoT3m8ao7O7jFesSAVMVhUg&oe=62B9C8DC" alt="Thục Uyên">
+                                            <img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t39.30808-6/261281298_428208698877022_41218216288687255_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=qtQVuXLJrGkAX-yR9N3&_nc_oc=AQmA36ZKduz7352M-GwoD7-JBZN7lOVz9DZhsEGiDidffoef0Afh-upzwVsnEVzm7MQ&_nc_ht=scontent.fsgn2-2.fna&oh=00_AT_hSlR1NrcIqV-zGtpBygBJ54JAmZH_hOKiZdTrs9ikuw&oe=62CD8F5C" alt="">
                                             <div class="team-social">
                                                 <a class="sl-fb" href="#"><i class="icon-facebook"></i></a>
                                                 <a class="sl-tw" href="#"><i class="icon-twitter"></i></a>
@@ -231,7 +431,7 @@
                                 <div class="content staff-content">
                                     <div class="recent-work staff-img">
                                         <div class="img-wrap staff-img">
-                                            <img src="https://scontent.fdad1-3.fna.fbcdn.net/v/t1.6435-9/133451201_2679963482314676_5268944808683900649_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=OSjK9ztQI14AX-b0xcK&_nc_ht=scontent.fdad1-3.fna&oh=00_AT-WpHgTQ4nwfM8XFdPqFZIZbFjSTu6kMEkFANj1WjF2pA&oe=62CA553D" alt="Thiên An">
+                                            <img src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.6435-9/133451201_2679963482314676_5268944808683900649_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=M2DZW0Rih54AX_LImy6&_nc_ht=scontent.fsgn2-5.fna&oh=00_AT__trnUUeCSLx8223pzlctRuRW6EGJVJEvBYHfenencbQ&oe=62EDEDBD" alt="">
                                             <div class="team-social">
                                                 <a class="sl-fb" href="#"><i class="icon-facebook"></i></a>
                                                 <a class="sl-tw" href="#"><i class="icon-twitter"></i></a>
@@ -241,7 +441,7 @@
                                         </div>
                                         <div class="work-info staff-info">
                                             <h5>Thiên An</h5>
-                                            <span>Nhà Phát Triển</span>
+                                            <span>Nhà Phát TRiển</span>
                                         </div>
                                     </div>
                                 </div>
@@ -362,10 +562,10 @@
                 <!-- Contact Section -->
                 <div class="wrap contact" id="contact">
                     <div class="grid grid-pad" >
-                        <h2>Liên Hệ</h2>
+                        <h2>Tiếp Xúc</h2>
                         <div class="col-1-2" >
                             <div class="content address">
-                                <h3>Đăng Kí</h3>
+                                <h3>Nói Với Chúng Tôi</h3>
                                 <p></p>
                                 <address>
                                     <div>
@@ -373,7 +573,7 @@
                                             <i class="icon-location"></i>
                                         </div>
                                         <span>Địa Chỉ:</span>
-                                        <p>296/10/Lương Định Của/Nha Trang/Khánh Hòa</p>
+                                        <p>296/10/Lương Định Của</p>
                                     </div>
                                     
                                     <div>
@@ -381,7 +581,7 @@
                                             <i class="icon-clock"></i>
                                         </div>
                                         <span>TG Làm Việc:</span>
-                                        <p>Thứ 2 - Thứ Sáu từ 9am tới 5pm</p>
+                                        <p>Thứ 2 - Thứ 6 from 9am to 5pm</p>
                                     </div>
                                     
                                     <div>
@@ -431,14 +631,14 @@
                         <div class="col-1-4" >
                             <div class="content">
                                 <div class="footer-widget">
-                                    <h3></h3>
+                                    <h3>Recent Posts</h3>
                                     <div class="fwidget">
                                         <ul>
                                             <li><a href="#0">Đào Tạo</a></li>
-                                            <li><a href="#0">Cơ Bản</a></li>
-                                            <li><a href="#0">Chuyên Sâu</a></li>
                                             <li><a href="#0">Chuyên Nghiệp</a></li>
-                                            <li><a href="#0">Vững Chuyên Môn</a></li>
+                                            <li><a href="#0">Uy Tín</a></li>
+                                            <li><a href="#0">Sẽ Không Làm Bạn Thất Vọng</a></li>
+                                            <li><a href="#0">Hãy Đến Với Chúng Tôi</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -459,7 +659,7 @@
                         <div class="col-1-4" >
                             <div class="content">
                                 <div class="footer-widget">
-                                    <h3>Relax</h3>
+                                    <h3>Nguồn Cấp Dữ Liệu</h3>
                                     <div class="flickr-widget">
                                         <ul class="flickr-list">
                                             <li><a href="#0"><img src="images/flickr-widget/flickr1.jpg" alt=""></a></li>
@@ -479,14 +679,14 @@
                             <div class="col-1-1" >
                                 <div class="content">
                                     <div class="social-set">
-                                        <a  href="https://www.facebook.com/taitrn51/"><i class="icon-facebook"></i></a>
+                                        <a  href="#0"><i class="icon-facebook"></i></a>
                                         <a  href="#0"><i class="icon-twitter"></i></a>
                                         <a  href="#0"><i class="icon-linkedin2"></i></a>
                                         <a  href="#0"><i class="icon-dribbble4"></i></a>
                                         <a  href="#0"><i class="icon-instagram"></i></a>
                                     </div>
-                                    <p class="source-org copyright">© 2022 | Bản Quyền Của Anh Tài Trần <a href=""
-                                    </div>
+                                    <p class="source-org copyright">© 2016|Bản Quyền Bởi <a href="">Anh Tài Trần</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
