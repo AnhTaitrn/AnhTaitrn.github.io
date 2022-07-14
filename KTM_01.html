@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            section {
+                display: flex;
+                justify-content: center;
+                height: 100%;
+            }
+            .container {
+                display: flex;
+                width: 60rem;
+                height: 30rem;
+                margin: auto;
+                background: #42b0f5;
+            }
+            .input-data {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding: 2em;
+            }
+            input[type="submit"],
+            input[type="reset"] {
+                width: 10rem;
+                padding: .9em 0;
+            }
+            form > *,
+            content > * {
+                padding-bottom: 1em;
+            }
+            .flex {
+                display: flex;
+            }
+            .gender > * {
+                padding-left: 2em;
+            }
+            .hobby {
+                flex-direction: column;
+            }
+            .hobby > * {
+                padding-left: 2em;
+                padding-bottom: .5em;
+            }
+            .button {
+                padding: 0;
+            }
+            .output-data {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                background: rgb(112, 226, 19);
+            }
+            .content > * {
+                padding-left: 2em;
+                padding-bottom: 1em;
+            }
+            @media (max-width: 60rem) {
+                .container {
+                    flex-direction: column;
+                }
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 15rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="input-data">
+                    <form id="user-detail">
+
+                        <div class="name">
+                            <label for="name">Số Thứ Nhất</label>
+                            <input type="text" id="user-name">
+                        </div>
+                        <div class="name">
+                            <label for="name">Số Thứ Hai:</label>
+                            <input type="text" name="number"><br><br>
+                            <input type="radio" name="calculation" value="cong">+&nbsp&nbsp
+                            <input type="radio" name="calculation" value="tru">-&nbsp&nbsp
+                            <input type="radio" name="calculation" value="nhan">*&nbsp&nbsp
+                            <input type="radio" name="calculation" value="chia">/<br><br>
+                    </select>
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="Kết Quả" id="submit">
+                            <input type="reset">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="output-data">
+                    <div class="content">
+                        <p class=""></p>
+                        <p class=""></p>
+                        <p class=""></p>
+                        <p class=""></p>
+                        <p class=""></p>  
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+    </body>
+    <script>
+        
